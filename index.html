@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <!-- MENU DE Principal -->
+    <div class="menu">
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </div>
+
+   
+    <header id="home">
+        
+        <img src="minha.jpeg" alt="Minha foto" class="minha-foto">
+        <h1>Nhaca, Duclesio Manuel</h1>
+        <h2>Desenvolvedor Web</h2><br>
+            <div class="rede">
+         <div class="sociais-mini">
+                <a href="https://github.com/duclesionhaca-eng" target="_blank" class="mini-social" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/duclesio-nhaca" target="_blank" class="mini-social" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://facebook.com/DuclesioNhaca" target="_blank" class="mini-social" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/258855777584" target="_blank" class="mini-social" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+</div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO SOBRE MIM -->
+        <section id="sobre" class="secao">
+            <h2>Sobre mim</h2>
+            <p>
+                Sou estudante de Informática na UEM e desenvolvedor web em formação. 
+                Tenho grande interesse em criar soluções digitais que possam beneficiar 
+                minha comunidade. Busco sempre aprender novas tecnologias e melhorar 
+                minhas habilidades para contribuir com o desenvolvimento tecnológico 
+                em Moçambique.
+            </p>
+        </section>
+
+        <!-- SEÇÃO PROJETOS -->
+        <section id="projetos" class="secao">
+    <h2>Meus Projetos</h2>
+    <div class="container-projetos">
+        <div class="card-projeto">
+            <img src="escola.jfif" alt="Projeto escolar" class="img-projeto">
+            <div>
+                <h3>Gestão Escolar</h3>
+                <p><strong>Descrição:</strong> Sistema completo para gestão de escolas</p>
+                
+                <a href="projeto-escola.html" class="btn-projeto">Ver detalhes</a>
+            </div>
+        </div>
+        
+        <div class="card-projeto">
+            <img src="sge.jfif" alt="Projeto eleitoral" class="img-projeto">
+            <div>
+                <h3>Gestão Eleitoral</h3>
+                <p><strong>Descrição:</strong> Plataforma para gestão de eleições</p>
+               
+                <a href="projeto-eleitoral.html" class="btn-projeto">Ver detalhes</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- SEÇÃO HABILIDADES -->
+        <section id="habilidades" class="secao">
+            <h2>Minhas Habilidades</h2>
+            <ul class="lista-habilidades">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVA</li>
+                <li>JAVA SCRIPT</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+
+        <!-- SEÇÃO FORMAÇÃO -->
+        <section id="formacao" class="secao">
+            <h2>Formação</h2>
+            <div class="item-formacao">
+                <strong>Curso:</strong> Programação em Java
+            </div>
+            <div class="item-formacao">
+                <strong>Curso:</strong> Informática - UEM (2024)
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO -->
+        <section id="contato" class="secao">
+            <h2>Entre em Contato</h2>
+            <form>
+                <div class="form-grupo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo...">
+                </div>
+                
+                <div class="form-grupo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com...">
+                </div>
+
+                <div class="form-grupo">
+                    <label for="assunto">Assunto:</label>
+                    <textarea id="assunto" name="assunto" placeholder="Digite sua mensagem..."></textarea>
+                </div>
+
+                <div class="container-botao">
+                    <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- RODAPE  -->
+    <footer>
+        <h2>Redes Sociais</h2>
+        
+        <!-- Cards de Redes Sociais -->
+        <div class="cards-sociais">
+            <a href="mailto:Duclesionhaca@gmail.com" class="card-social email">
+                <div class="icone-social">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-social">
+                    <h3>Email</h3>
+                    <p>Duclesionhaca@gmail.com</p>
+                </div>
+                <div class="seta-social">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="https://wa.me/258855777584" target="_blank" class="card-social whatsapp">
+                <div class="icone-social">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="info-social">
+                    <h3>WhatsApp</h3>
+                    <p>+258 855 777 584</p>
+                </div>
+                <div class="seta-social">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/duclesio-nhaca" target="_blank" class="card-social linkedin">
+                <div class="icone-social">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="info-social">
+                    <h3>LinkedIn</h3>
+                    <p>Duclesio Nhaca</p>
+                </div>
+                <div class="seta-social">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="https://github.com/duclesionhaca-eng" target="_blank" class="card-social github">
+                <div class="icone-social">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="info-social">
+                    <h3>GitHub</h3>
+                    <p>@duclesionhaca-eng</p>
+                </div>
+                <div class="seta-social">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="https://facebook.com/DuclesioNhaca" target="_blank" class="card-social facebook">
+                <div class="icone-social">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="info-social">
+                    <h3>Facebook</h3>
+                    <p>Duclesio Nhaca</p>
+                </div>
+                <div class="seta-social">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="#" target="_blank" class="card-social instagram">
+                <div class="icone-social">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="info-social">
+                    <h3>Instagram</h3>
+                    <p>@duclesio.nhaca</p>
+                </div>
+                <div class="seta-social">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+        </div>
+
+       
+        <div class="info-contato-simples">
+            <div class="item-contato">
+                <i class="fas fa-phone"></i>
+                <span>+258 855 777 584</span>
+            </div>
+            <div class="item-contato">
+                <i class="fas fa-envelope"></i>
+                <span>Duclesionhaca@gmail.com</span>
+            </div>
+            <div class="item-contato">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Moçambique</span>
+            </div>
+        </div>
+
+       
+        <div class="links-rapidos">
+            <a href="#home" class="link-rapido">Início</a>
+            <a href="#sobre" class="link-rapido">Sobre</a>
+            <a href="#habilidades" class="link-rapido">Habilidades</a>
+            <a href="#projetos" class="link-rapido">Projetos</a>
+            <a href="#contato" class="link-rapido">Contato</a>
+        </div>
+        
+
+        
+        <div class="rodape-inferior">
+            <p class="copyright">
+                <i class="far fa-copyright"></i> 2026 Duclesio Nhaca - Todos os direitos reservados.
+            </p>
+            
+            <div class="sociais-mini">
+                <a href="https://github.com/duclesionhaca-eng" target="_blank" class="mini-social" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/duclesio-nhaca" target="_blank" class="mini-social" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://facebook.com/DuclesioNhaca" target="_blank" class="mini-social" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/258855777584" target="_blank" class="mini-social" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
